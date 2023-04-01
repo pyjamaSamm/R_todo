@@ -7,7 +7,7 @@ const TodoModel = require("./models/Todo")
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://gulafshaahmed:Sy5dWyQ3u2q3lkP4@cluster0.ojgxwxu.mongodb.net/todo_react?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://gulafshaahmed:<your-input>@cluster0.ojgxwxu.mongodb.net/<database-name>?retryWrites=true&w=majority", {
     useNewUrlParser: true,
 })
 
