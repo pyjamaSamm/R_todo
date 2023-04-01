@@ -1,0 +1,38 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  .not-selected {
+    background-color: #F7DB6A;
+  }
+  .selected {
+    background-color: #5bc0de;
+  }
+#inputBox{
+    width: 20vw;
+    min-width: 200px;
+    max-width: 400px;
+    margin-right: 5px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+.labelForm{
+  margin-bottom: 30px;
+}
+@media(max-width: 600px){
+  .labelForm{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.plusButton{
+  margin-left: 20px;
+}
