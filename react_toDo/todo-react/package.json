@@ -15,10 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm start",
-    "build": "npm run build",
-    "test": "npm test",
-    "eject": "npm run eject"
+    "start": "yarn start",
+    "build": "yarn build",
+    "test": "yarn test",
+    "eject": "yarn eject"
   },
   "eslintConfig": {
     "extends": [
