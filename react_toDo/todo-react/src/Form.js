@@ -25,7 +25,7 @@ export default function Form() {
   };
 
   const addToList = (input) => {
-    Axios.post("http://localhost:3001/insert", { item: input.name })
+    Axios.post("https://r-todo.onrender.com/insert", { item: input.name })
   }
 
   return (
