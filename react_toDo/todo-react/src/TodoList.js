@@ -10,7 +10,7 @@ export default function ToDoList() {
 
   const [data, setData] = useState([])
   useEffect(() => {
-    Axios.get("http://localhost:3001/read").then((response) => {
+    Axios.get("https://r-todo.onrender.com/read").then((response) => {
       setData(response.data)
     });
   }, []);
@@ -30,7 +30,7 @@ export default function ToDoList() {
 
 
   const deleteElem = (id, js_id) => {
-    Axios.delete(`http://localhost:3001/delete/${id}`)
+    Axios.delete(`https://r-todo.onrender.com/delete/${id}`)
     alert("Todo deleted!")
     window.location.reload()
   }
